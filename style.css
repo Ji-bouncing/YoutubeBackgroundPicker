@@ -1,0 +1,73 @@
+/*Reset default styling*/
+*{
+  margin:0;
+  padding:0;
+}
+
+/*style the image*/
+img{
+  display:block;
+  margin:3%  auto;
+  border-radius:0.6em;
+  height:100%;
+  width:60%;
+  
+}
+
+/*style the ul*/
+ul{
+  list-style-type: none;
+  
+}
+
+/*styling the h1*/
+h1{
+  text-align: center;
+  font-size: 4em;
+  margin: 3% 0 0 0;
+  font-variant: small-caps;
+}
+/* styling the li*/
+
+ul li{
+  padding:4em;
+  width:40%;
+  margin:0 auto;
+  border-radius: 0.6em;
+  border:2px solid black;
+  
+}
+/* styling the li with the id*/
+#blue{
+  background:blue;
+}
+#lemon{
+  background:lime;
+}
+#purple{
+  background: purple;
+}
+#red{
+  background:red;
+}
+#green{
+  background: green;
+}
+#orange{
+  background: darkorange;
+}
+#brown{
+  background: brown;
+}
+
+/*styling the button*/
+button{
+  display: block;
+  margin:3% auto;
+  padding:1em 2em;
+  background: black;
+  color:white;
+  font-size: 3em;
+  border-radius: 0.6em;
+  font-variant:small-caps;
+}
